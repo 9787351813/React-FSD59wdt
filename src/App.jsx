@@ -2,23 +2,16 @@
 
 const App = () => {
 
-  const friends =[
-    {id:1,name:'John', age:20},
-    {id:2,name:'Karthi', age:24},
-  ]
-  return (
+  const isLoggedIn = true;
+  return(
     <div>
-      <h1>Friends</h1>
-     <ul>
       {
-        friends.map(friend => 
-          <li key={friend.id}>{friend.name} {friend.age} </li>
-         
-        )
+        isLoggedIn? <h1>Welcome</h1> : <h1>Please log in </h1>
       }
-     </ul>
     </div>
   )
-}
+  }
+ 
 
-export default App
+
+export default App;
