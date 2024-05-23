@@ -1,17 +1,18 @@
-
+import './App.css';
 
 const App = () => {
 
-  const isLoggedIn = true;
-  return(
+
+
+  return (
     <div>
-      {
-        isLoggedIn? <h1>Welcome</h1> : <h1>Please log in </h1>
-      }
+      <h1 className="Header">Price Card</h1>
+      <div className='container'>
+          
+        
+      </div>
     </div>
   )
-  }
- 
+}
 
-
-export default App;
+export default App
