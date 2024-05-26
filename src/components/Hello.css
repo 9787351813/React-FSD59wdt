@@ -1,0 +1,55 @@
+
+.container{
+    align-items: center;
+    justify-content: center;
+   display: flex;
+    border-radius: 5px;
+    background: linear-gradient(to right, #0265E7,#31ABFE);
+    padding-block: 10px;
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+   
+}
+
+.card-header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card-title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.card{
+    border-radius: 10px;
+    justify-content: space-evenly;
+    border-width: 1px;
+    padding: 30px;
+    
+}
+.Title{
+    font-size: small;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+#times {
+    color:gainsboro;
+}
+#btn-button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}

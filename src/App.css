@@ -1,6 +1,7 @@
-.Header{
+.header{
     align-items: center;
     justify-content: center;
     display: flex;
-    color: blue;
+    color: #0366E6;
+    margin-top: 50px;
 }
