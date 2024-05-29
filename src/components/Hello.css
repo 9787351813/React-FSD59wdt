@@ -6,13 +6,12 @@
     border-radius: 5px;
     background: linear-gradient(to right, #0265E7,#31ABFE);
     padding-block: 10px;
-    padding-inline-start: 10%;
-    padding-inline-end: 10%;
-   
+    width:50%;
+
 }
 
 .card-header{
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     display: flex;
 }
@@ -26,13 +25,19 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: #4BA2FF;
+    border-radius: 50px;
+    
+}
+#button:hover{
+    background-color: rgb(13,110,253);
     
 }
 .card{
     border-radius: 10px;
     justify-content: space-evenly;
     border-width: 1px;
-    padding: 30px;
+    
     
 }
 .Title{
@@ -51,5 +56,5 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    
+    border-radius: 50px;
 }
